@@ -13,6 +13,7 @@
 		F6F537AF1E7A3A3C00435436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F537AD1E7A3A3C00435436 /* Main.storyboard */; };
 		F6F537B11E7A3A3C00435436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F537B01E7A3A3C00435436 /* Assets.xcassets */; };
 		F6F537B41E7A3A3C00435436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F537B21E7A3A3C00435436 /* LaunchScreen.storyboard */; };
+		F6F537BE1E7A3B3600435436 /* TestPod.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F537BD1E7A3B3600435436 /* TestPod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F6F537B01E7A3A3C00435436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6F537B31E7A3A3C00435436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6F537B51E7A3A3C00435436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F537BC1E7A3B3600435436 /* TestPod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPod.h; sourceTree = "<group>"; };
+		F6F537BD1E7A3B3600435436 /* TestPod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		F6F537981E7A3A3B00435436 = {
 			isa = PBXGroup;
 			children = (
+				F6F537BB1E7A3B1B00435436 /* TestClass */,
 				F6F537A31E7A3A3C00435436 /* TestCocoaPodsDemo */,
 				F6F537A21E7A3A3C00435436 /* Products */,
 			);
@@ -77,6 +81,15 @@
 				F6F537A51E7A3A3C00435436 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6F537BB1E7A3B1B00435436 /* TestClass */ = {
+			isa = PBXGroup;
+			children = (
+				F6F537BC1E7A3B3600435436 /* TestPod.h */,
+				F6F537BD1E7A3B3600435436 /* TestPod.m */,
+			);
+			path = TestClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 				F6F537AC1E7A3A3C00435436 /* ViewController.m in Sources */,
 				F6F537A91E7A3A3C00435436 /* AppDelegate.m in Sources */,
 				F6F537A61E7A3A3C00435436 /* main.m in Sources */,
+				F6F537BE1E7A3B3600435436 /* TestPod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
